@@ -58,7 +58,7 @@ def bypass2():
 
 def sandcastle_linux():
     try:
-        subprocess.call(['sudo', './bypass-2.sh'])
+        subprocess.call(['sudo', './sandcastle-linux.sh'])
         return {"message": "Running Project Sandcastle (Linux) - please be patient!"}
     except Exception as e:
         return {"error": str(e)}
@@ -71,7 +71,7 @@ def linux():
 
 def sandcastle_android():
     try:
-        subprocess.call(['sudo', './bypass-2.sh'])
+        subprocess.call(['sudo', './sandcastle-android.sh'])
         return {"message": "Running Project Sandcastle (Android) - please be patient!"}
     except Exception as e:
         return {"error": str(e)}
