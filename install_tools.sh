@@ -43,6 +43,7 @@ apt install -y \
 # Checkra1n installation
 print_status "Installing checkra1n..."
 if ! command -v checkra1n &>/dev/null; then
+    mkdir /opt/sakura1n
     CHECKRA1N_URL="https://assets.checkra.in/downloads/linux/cli/arm/ff05dfb32834c03b88346509aec5ca9916db98de3019adf4201a2a6efe31e9f5/checkra1n"
     wget -O checkra1n "$CHECKRA1N_URL"
     chmod +x checkra1n
@@ -78,7 +79,17 @@ else
 fi
 
 # Final steps
-print_status "All tools installed successfully!"
+wget https://raw.githubusercontent.com/faithvoid/sakura1n/refs/heads/main/sakura1n.service
+wget https://raw.githubusercontent.com/faithvoid/sakura1n/refs/heads/main/sakura1n-spi.py
+wget https://raw.githubusercontent.com/faithvoid/sakura1n/refs/heads/main/sakura1n-web.py
+mv sakura1n.service /etc/systemd/system
+mv sakura1n-web.py /opt/sakura1n/sakura1n-web.py
+mv sakura1n-spi.py /opt/sakura1n/sakura1n-spi.py
+sudo systemctl start sakura1n
+
+print_status "All tools installed successfully! sakura1n is now running!"
 print_status "Checkra1n can be run using: checkra1n"
 print_status "Checkm8 tools are located in: $CHECKM8_DIR"
 print_status "Palera1n can be run using: palera1n"
+print_status "To enable sakura1n on boot, enter the following in your terminal: sudo systemctl enable sakura1n"
+
