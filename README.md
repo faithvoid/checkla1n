@@ -30,11 +30,11 @@ sakura1n - Pi Zero based headless iOS jailbreak solution for multiple iOS versio
 - Lots and lots and lots of testing!
 
 # Why?
-Having a set-it-and-forget-it piece of hardware for a series of devices you frequently work with is always helpful, and makes diagnostics and other tasks infinitely simpler. 
+Having a set-it-and-forget-it piece of hardware for a series of devices you frequently work with is always helpful, and makes diagnostics, software repair and other tasks infinitely simpler. 
 
 # Credits
 - checkra1n team (jailbreak utility)
 - Adrian Jagielak (bypass utility)
 
 # Disclaimer
-This repository is for educational purposes only. Make sure to consult your country's laws on the legality of jailbreaking your devices before using any of the bundled applications! 
+This repository is for educational purposes only. Make sure to consult your country's laws on jailbreaking your devices before using any of the bundled applications! Jailbreaking your device can also void your warranty and Apple can deny any official support for your device. Additionally, no warranty or liability is provided with this software to the fullest applicable extent of the law. The end user takes full responsibility for anything that may happen to their device, such as data loss or bricking. Please do your research before using any of these utilities.
