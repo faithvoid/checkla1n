@@ -12,6 +12,7 @@ sakura1n - Pi Zero based iOS jailbreak dongle solution for multiple iOS versions
 - Create web app + SPI display functionality for controlling various DFU / jailbreak features
 
 # Credits
-- checkra1n team
+- checkra1n team (jailbreak utility)
+- Adrian Jagielak (bypass utility)
 
 This repository is for educational purposes only. Make sure to consult your country's laws on the legality of jailbreaking your devices before using this application!
