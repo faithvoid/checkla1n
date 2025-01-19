@@ -1,5 +1,5 @@
-# sakurala1n
-sakurala1n - Pi Zero based iOS jailbreak dongle solution for multiple iOS versions.
+# sakurara1n
+sakurara1n - Pi Zero based iOS jailbreak dongle solution for multiple iOS versions.
 ![](icon.png)
 
 # Requirements:
