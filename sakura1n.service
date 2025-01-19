@@ -1,0 +1,11 @@
+[Unit]
+Description=Cortana Wireless (WiFi Sharing)
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /opt/sakura1n/sakura1n.sh
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
