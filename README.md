@@ -10,7 +10,7 @@ sakura1n - Pi Zero based headless iOS jailbreak solution for multiple iOS versio
 - Once installed, you can start sakura1n by typing "sudo systemctl start sakura1n". Within a few seconds, you should have a web server up and running, and/or a GUI appear on your SPI display!
 
 # Planned Features
-- All available checkra1n-based iOS jailbreaks for all iOS versions up until 14!
+- All available checkm8/checkra1n/palera1n jailbreaks for all iOS versions up until 14!
 - Project Sandcastle support for loading Linux / Android
 - Fully headless, can be controlled with either an SPI display with buttons, or via a web app!
 
