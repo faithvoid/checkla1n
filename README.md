@@ -27,6 +27,7 @@ sakura1n - Pi Zero based headless iOS jailbreak solution for multiple iOS versio
 # TODO:
 - Create SPI display app for controlling various DFU / jailbreak features
 - Integrate other jailbreaks for iOS versions that checkra1n doesn't support (ie; palera1n for 15+ support).
+- Lots and lots and lots of testing!
 
 # Why?
 Having a set-it-and-forget-it piece of hardware for a series of devices you frequently work with is always helpful, and makes diagnostics and other tasks infinitely simpler. 
@@ -35,4 +36,5 @@ Having a set-it-and-forget-it piece of hardware for a series of devices you freq
 - checkra1n team (jailbreak utility)
 - Adrian Jagielak (bypass utility)
 
-This repository is for educational purposes only. Make sure to consult your country's laws on the legality of jailbreaking your devices before using this application!
+# Disclaimer
+This repository is for educational purposes only. Make sure to consult your country's laws on the legality of jailbreaking your devices before using any of the bundled applications! 
