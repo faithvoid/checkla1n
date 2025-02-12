@@ -1,5 +1,6 @@
 # sakura1n
 sakura1n - Pi Zero based headless iOS jailbreak solution for multiple iOS versions.
+## This is still in early alpha, this may not function correctly or at all!
 ![](icon.png)
 
 # How To Use
